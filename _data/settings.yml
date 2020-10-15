@@ -42,6 +42,8 @@ hero:
   hero-subtitle: Join the DCSIL Program in our unique and innovative courses at the University of Toronto.
   hero-btn-text: Learn More
   hero-btn-link: student-courses
+  hero-secondary-btn-text: Donate to the Program
+  hero-secondary-btn-link: https://donate.utoronto.ca/DCSIL
 
 social:
 - {icon: "ti-facebook", link: "https://www.facebook.com/uoftbusinesofsoftware/"}
