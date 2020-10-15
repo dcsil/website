@@ -96,10 +96,10 @@ team:
 
 
 #-------------------------------
-# Services Section
+# Highlights Section
 
-services-title: Services
-services:
+highlights-title: Our Focus
+highlights:
 - {
     name: UI Design,
     icon: ti-palette,
