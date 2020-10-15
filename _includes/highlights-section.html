@@ -1,0 +1,24 @@
+{% if site.data.settings.highlights %}
+<!-- highlights -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">{{ site.data.settings.highlights-title }}</h2>
+      </div>
+      {% for highlight in site.data.settings.highlights %}
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body {% if highlight.active %}active-bg-primary{% endif %} text-center px-4 py-5">
+            <i class="{{ highlight.icon }} icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">{{ highlight.name }}</h4>
+            <p>{{ highlight.description }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- /highlights -->
+{% endif %}
