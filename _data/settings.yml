@@ -1,14 +1,14 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: DCSIL
 logo: 
-author: themefisher
-description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+author: Julian Nadeau
+description: The Department of Computer Science Innovation Lab (DCSIL) is both a startup incubator and accelerator at the University of Toronto.
+email: dcsil@cs.toronto.edu
+phone: N/A
+address: 2nd Floor, Gerstein Science Information Centre, 9 King's College Circle, Toronto, ON M5S 1A5, University of Toronto
+copyright: Copyright &copy; 2020
 
 menu:
 - {name: About, link: '/about'}
@@ -38,13 +38,12 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: WHERE <strong>FOUNDERS</strong> ARE MADE
 
 social:
-- {icon: "ti-facebook", link: "#"}
-- {icon: "ti-instagram", link: "#"}
-- {icon: "ti-dribbble", link: "#"}
-- {icon: "ti-twitter", link: "#"}
+- {icon: "ti-facebook", link: "https://www.facebook.com/uoftbusinesofsoftware/"}
+- {icon: "ti-linkedin", link: "https://www.linkedin.com/groups/8308631"}
+- {icon: "ti-twitter", link: "https://twitter.com/UofT_DCSIL"}
 
 
 #-------------------------------
@@ -52,7 +51,8 @@ social:
 
 # About Section
 blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  The Department of Computer Science Innovation Lab (DCSIL) is both a startup incubator and accelerator at the University of Toronto.
+  DCSIL’s priorities include teaching entrepreneurship, research to commercialization, startup creation, and student-industry engagement.
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
@@ -293,4 +293,4 @@ client-slider-items:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: dcsil@cs.toronto.edu
