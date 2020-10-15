@@ -11,10 +11,10 @@ address: 2nd Floor, Gerstein Science Information Centre, 9 King's College Circle
 copyright: Copyright &copy; 2020
 
 menu:
-- {name: About, link: 'about'}
-- {name: Blog, link: 'blog'}
-- {name: Portfolio, link: 'portfolio'}
-- {name: Contact, link: 'contact'}
+- {name: 'About', link: 'student-courses'}
+- {name: 'Blog', link: 'blog'}
+- {name: 'Success Stories', link: 'success-stories'}
+- {name: 'Contact', link: 'contact'}
 
 
 #-------------------------------
