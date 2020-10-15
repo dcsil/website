@@ -11,10 +11,10 @@ address: 2nd Floor, Gerstein Science Information Centre, 9 King's College Circle
 copyright: Copyright &copy; 2020
 
 menu:
-- {name: About, link: '/about'}
-- {name: Blog, link: '/blog'}
-- {name: Portfolio, link: '/portfolio'}
-- {name: Contact, link: '/contact'}
+- {name: About, link: '{{ site.baseurl }}/about'}
+- {name: Blog, link: '{{ site.baseurl }}/blog'}
+- {name: Portfolio, link: '{{ site.baseurl }}/portfolio'}
+- {name: Contact, link: '{{ site.baseurl }}/contact'}
 
 
 #-------------------------------
@@ -54,7 +54,7 @@ blurb:
   The Department of Computer Science Innovation Lab (DCSIL) is both a startup incubator and accelerator at the University of Toronto.
   DCSIL’s priorities include teaching entrepreneurship, research to commercialization, startup creation, and student-industry engagement.
 
-blurb-btn-link: '/student-courses'
+blurb-btn-link: '{{ site.baseurl }}/student-courses'
 blurb-btn-name: Learn more
 
 
