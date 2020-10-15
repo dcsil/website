@@ -101,21 +101,21 @@ team:
 highlights-title: Our Focus
 highlights:
 - {
-    name: UI Design,
-    icon: ti-palette,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: Startup Creation,
+    icon: ti-shine,
+    description: 'The DCSIL program incubates and fosters business and engineering knowledge that has successfully produced many startups.',
     active: # Add true to select section
   }
 - {
-    name: UX Design,
-    icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: Teaching,
+    icon: ti-pencil-alt,
+    description: 'The DCSIL program focuses on bringing software and startup specific education to undergraduate and graduate classes at the University of Toronto.',
     active: true # Add true to select section
   }
 - {
-    name: Interaction Design,
-    icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: Industry engagement,
+    icon: ti-world,
+    description: 'Each semester we focus on engaging students with business partners in the industry. These partners mentor and guide the students in their startup while gaining invaluable exposure to brilliant students.',
     active: # Add true to select section
   }
 
