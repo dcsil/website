@@ -39,6 +39,9 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
 hero:
   hero-title: WHERE <strong>FOUNDERS</strong> ARE MADE
+  hero-subtitle: These innovative courses combine industry-backed experience and help students develop their own commercializable startups
+  hero-btn-text: Learn More
+  hero-btn-link: student-courses
 
 social:
 - {icon: "ti-facebook", link: "https://www.facebook.com/uoftbusinesofsoftware/"}
