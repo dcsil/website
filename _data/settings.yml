@@ -12,8 +12,8 @@ copyright: Copyright &copy; 2020
 
 menu:
 - {name: 'Courses', link: 'student-courses'}
-- {name: 'Blog', link: 'blog'}
 - {name: 'Success Stories', link: 'success-stories'}
+- {name: 'Blog', link: 'blog'}
 - {name: 'Contact', link: 'contact'}
 
 
