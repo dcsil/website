@@ -4,8 +4,11 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">Portfolio</h2>
+        <h2 class="section-title">Our Startups</h2>
       </div>
+    </div>
+    <div class="container">
+      {% include client-slider.html %}
     </div>
     <div class="row shuffle-wrapper">
       {% for item in site.data.settings.portfolio-home-items %}
@@ -21,6 +24,8 @@
       </div>
       {% endfor %}
     </div>
+
+
   </div>
 </section>
 <!-- /portfolio -->

@@ -11,7 +11,7 @@ address: 2nd Floor, Gerstein Science Information Centre, 9 King's College Circle
 copyright: Copyright &copy; 2020
 
 menu:
-- {name: 'About', link: 'student-courses'}
+- {name: 'Courses', link: 'student-courses'}
 - {name: 'Blog', link: 'blog'}
 - {name: 'Success Stories', link: 'success-stories'}
 - {name: 'Contact', link: 'contact'}
@@ -62,37 +62,36 @@ blurb:
 blurb-btn-link: 'student-courses'
 blurb-btn-name: Learn more
 
-
 # About Page
 
 # Work Process Section
 work-process:
+  - title : "Build a Team"
+    icon : "assets/images/work/team.svg"
+    content : "Teams are formed from the hand-selected students in the DCSIL program. Teams are spread across CSC454/2527 and CSC491/2600 to ensure products can be built to the highest standards."
+  
   - title : "Research and Plan"
-    icon : "assets/images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    icon : "assets/images/work/prototype.svg"
+    content : "While students in CSC454/2527 are researching and planning a top notch product, teammates in CSC491/2600 will research and plan the build of the product."
     
   - title : "Design and Develop"
-    icon : "assets/images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    icon : "assets/images/work/build.svg"
+    content : "With business requirements and product direction from CSC454/2527, students in CSC491/2600 will design and develop a Minimum Viable Product (MVP)."
     
-  - title : "Deliver"
-    icon : "assets/images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "Deliver the Product"
+    icon : "assets/images/work/pitching.svg"
+    content : "By the end of the term, you will deliver fully formed MVP products capable of continuing as startups. Some may continue to be successful ventures, as we've seen in the past."
 
 
-# My Team Section
-team:
-  - title : "Jack Schenziwe"
-    image : "assets/images/team/member-1.png"
-    designation : "Project Manager"
+# Courses Section
+courses:
+  - code: CSC454/2527
+    image: "assets/images/class/class1.png"
+    title: "Business of Software"
     
-  - title : "Julias Carlie"
-    image : "assets/images/team/member-2.png"
-    designation : "Web Developer"
-    
-  - title : "John Doe"
-    image : "assets/images/team/member-3.png"
-    designation : "Designer"
+  - code: CSC491/2600
+    image: "assets/images/class/class2.jpg"
+    title: "Capstone Design Project"
 
 
 #-------------------------------
@@ -232,34 +231,33 @@ testimonial-items:
 # Client Slider Section
 
 client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-1.png"
+  - logo: assets/images/clients-logo/bluej.jpg
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-2.png"
+  - logo: assets/images/clients-logo/brainsview.png
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-3.png"
+  - logo: assets/images/clients-logo/deeppixel.png
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-4.png"
+  - logo: assets/images/clients-logo/knowtions.png
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-5.png"
+  - logo: assets/images/clients-logo/phenomic.png
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-1.png"
+  - logo: assets/images/clients-logo/pungle.png
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-2.png"
+  - logo: assets/images/clients-logo/quantum_capture.png
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-3.png"
+  - logo: assets/images/clients-logo/rave.svg
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-4.png"
+  - logo: assets/images/clients-logo/ross.svg
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-5.png"
+  - logo: assets/images/clients-logo/shield_crypto.png
+    url: "#"
+  - logo: assets/images/clients-logo/stack.png
+    url: "#"
+  - logo: assets/images/clients-logo/structura.png
+    url: "#"
+  - logo: assets/images/clients-logo/veerum.png
+    url: "#"
+  - logo: assets/images/clients-logo/winterlight.png
     url: "#"
 
 #-------------------------------

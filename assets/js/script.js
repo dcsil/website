@@ -100,11 +100,14 @@
     // clients logo slider
     $('.client-logo-slider').slick({
         infinite: true,
+        speed: 300,
         slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
         dots: false,
         arrows: false,
+        adaptiveHeight: true,
+        variableWidth: true,
         responsive: [{
                 breakpoint: 1024,
                 settings: {
