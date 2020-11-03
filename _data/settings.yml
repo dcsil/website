@@ -16,10 +16,10 @@ theme:
   link: '/winter-2021'
 
 menu:
-  - {name: 'Courses', link: '/student-courses'}
-  - {name: 'Winter 2021', link: '/winter-2021'}
-  - {name: 'Startups', link: '/startups'}
-  - {name: 'Contact', link: '/contact'}
+  - {name: 'Courses', link: '/student-courses', active: 'course' }
+  - {name: 'Winter 2021', link: '/winter-2021' , active: 'term' }
+  - {name: 'Startups', link: '/startups', active: 'startups' }
+  - {name: 'Contact', link: '/contact', active: 'contact' }
     
 
 #-------------------------------
@@ -175,29 +175,29 @@ testimonial-items:
 # Client Slider Section
 
 startup-slider-items:
-  - logo: assets/images/clients-logo/bluej.jpg
+  - logo: assets/images/startup-logo/bluej.jpg
     url: "https://www.bluejlegal.com/"
-  - logo: assets/images/clients-logo/brainsview.png
+  - logo: assets/images/startup-logo/brainsview.png
     url: "http://www.brainsview.com/"
-  - logo: assets/images/clients-logo/deeppixel.png
+  - logo: assets/images/startup-logo/deeppixel.png
     url: "https://www.deeppixel.ai/"
-  - logo: assets/images/clients-logo/knowtions.png
+  - logo: assets/images/startup-logo/knowtions.png
     url: "https://www.knowtions.com/"
-  - logo: assets/images/clients-logo/phenomic.png
+  - logo: assets/images/startup-logo/phenomic.png
     url: "https://phenomic.ai/"
-  - logo: assets/images/clients-logo/pungle.png
+  - logo: assets/images/startup-logo/pungle.png
     url: "https://betakit.com/toronto-fintech-startup-pungle-acquired-by-berkeley-payment-solutions/"
-  - logo: assets/images/clients-logo/quantum_capture.png
+  - logo: assets/images/startup-logo/quantum_capture.png
     url: "https://www.quantumcapture.com/"
-  - logo: assets/images/clients-logo/ross.svg
+  - logo: assets/images/startup-logo/ross.svg
     url: "https://www.rossintelligence.com/"
-  - logo: assets/images/clients-logo/stack.png
+  - logo: assets/images/startup-logo/stack.png
     url: "https://www.getstack.ca/"
-  - logo: assets/images/clients-logo/structura.png
+  - logo: assets/images/startup-logo/structura.png
     url: "https://structura.bio/"
-  - logo: assets/images/clients-logo/veerum.png
+  - logo: assets/images/startup-logo/veerum.png
     url: "https://www.veerum.com/"
-  - logo: assets/images/clients-logo/winterlight.png
+  - logo: assets/images/startup-logo/winterlight.png
     url: "https://winterlightlabs.com/"
 
 #-------------------------------
