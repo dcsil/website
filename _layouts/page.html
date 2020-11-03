@@ -8,6 +8,7 @@ layout: default
     <div class="row">
       <div class="col-12 text-center">
         <h1 class="text-white font-tertiary">{{ page.title }}</h1>
+        {% if page.description %}<p class="text-white font-tertiary">{{ page.description }}</p>{% endif %}
         {% if page.link %}
           <a href="{{ page.link.href }}" class="btn btn-outline-light border">{{ page.link.text }}</a>
         {% endif %}

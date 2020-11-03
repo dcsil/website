@@ -13,7 +13,8 @@
           <div class="card-body">
             <h4 class="card-title">{{ course.code }}</h4>
             <p class="text-light font-secondary">{{ course.title }}</p>
-            <a href="./{{ course.code | split: '/' | first | downcase }}" class="btn btn-sm btn-primary">View Course</a>
+            <a href="./{{ course.code | split: '/' | first | downcase }}" class="my-1 btn btn-sm btn-primary">View Course</a>
+            <a href="./{{ course.code | split: '/' | first | downcase }}/instructor" class="my-1 ml-2 btn btn-sm btn-primary">Meet the Instructor</a>
           </div>
         </div>
       {% endfor %}
