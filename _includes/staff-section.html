@@ -1,13 +1,16 @@
 <!-- team -->
 <section class="section">
   <div class="container">
-    <h4 class="section-title text-center">DCSIL Teaching Staff</h4>
+    <h2 class="section-title text-center">DCSIL Teaching Staff</h2>
     <div class="row">
       {% assign staffs = site.pages | where: "staff", true | sort: "title" %}
       {% for staff in staffs %}
-        <article class="card shadow col-12 col-md-4">
+        <article class="card shadow col-12 col-md-4 text-center">
           <!-- <img class="rounded card-img-top" src="{{ post.image | relative_url }}" alt="{{ post.title }}"> -->
           <div class="card-body">
+            {% if staff.image %}
+              <img src="{{ staff.image }}" class="mb-4 rounded-circle" {% if staff.image_size %}width="{{ staff.image_size }}" height="{{ staff.image_size }}"{% endif %}/>
+            {% endif %}
             <h4 class="card-title">
               {{ staff.title }}
             </h4>
