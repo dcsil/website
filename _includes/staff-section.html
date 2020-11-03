@@ -12,7 +12,9 @@
               {{ staff.title }}
             </h4>
             <p class="card-text">{{ staff.description | markdownify }}</p>
-            <a href="{{ staff.permalink | relative_url }}" class="btn btn-sm btn-primary">View Member</a>
+          </div>
+          <div class="card-footer bg-white">
+            <a href="{{ staff.permalink | relative_url }}" class="btn btn-sm btn-primary mb-3 mt-0">View Member</a>
           </div>
         </article>
       {% endfor %}
