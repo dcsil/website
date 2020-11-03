@@ -93,11 +93,12 @@ courses:
   - code: CSC454/2527
     image: "assets/images/class/class1.png"
     title: "Business of Software"
+    instructor: mario
     
   - code: CSC491/2600
     image: "assets/images/class/class2.jpg"
     title: "Capstone Design Project"
-
+    instructor: julian
 
 #-------------------------------
 # Highlights Section

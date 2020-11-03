@@ -1,0 +1,21 @@
+<!-- team -->
+<section class="section">
+  <div class="container">
+    <h4 class="section-title text-center">DCSIL Teaching Staff</h4>
+    <div class="row">
+      {% assign staffs = site.pages | where: "staff", true | sort: "title" %}
+      {% for staff in staffs %}
+        <article class="card shadow col-12 col-md-4">
+          <!-- <img class="rounded card-img-top" src="{{ post.image | relative_url }}" alt="{{ post.title }}"> -->
+          <div class="card-body">
+            <h4 class="card-title">
+              {{ staff.title }}
+            </h4>
+            <p class="card-text">{{ staff.description | markdownify }}</p>
+            <a href="{{ staff.permalink | relative_url }}" class="btn btn-sm btn-primary">View Member</a>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
