@@ -13,7 +13,6 @@ copyright: Copyright &copy; 2020
 menu:
 - {name: 'Courses', link: 'student-courses'}
 - {name: 'Success Stories', link: 'success-stories'}
-- {name: 'Blog', link: 'blog'}
 - {name: 'Contact', link: 'contact'}
 
 
@@ -46,7 +45,7 @@ hero:
   hero-secondary-btn-link: https://donate.utoronto.ca/DCSIL
 
 social:
-- {icon: "ti-facebook", link: "https://www.facebook.com/uoftbusinesofsoftware/"}
+# - {icon: "ti-facebook", link: "https://www.facebook.com/uoftbusinesofsoftware/"}
 - {icon: "ti-linkedin", link: "https://www.linkedin.com/groups/8308631"}
 - {icon: "ti-twitter", link: "https://twitter.com/UofT_DCSIL"}
 
@@ -118,94 +117,33 @@ highlights:
     active: # Add true to select section
   }
 
-
-
 #-------------------------------
-# Portfolio (Section and Page)
+# Success Stories (Section and Page)
 
-# Portfolio Home Section
-portfolio-home-items:
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
+success-stories:
+  - image : "assets/images/success_stories/ross.jpg"
+    url: "https://www.utoronto.ca/news/ai-success-story-u-t-s-ross-intelligence-returns-toronto-open-new-research-headquarters"
+    text: "Ross Intelligence"
+
+  - image : "assets/images/success_stories/winterlight.jpg"
+    url: "https://www.utoronto.ca/entrepreneurs/winterlight"
+    text: "Winterlight Labs"
+
+  - image : "assets/images/success_stories/bluej.jpg"
+    url: "https://www.utoronto.ca/news/u-t-startup-blue-j-legal-raises-us7-million-plans-cross-border-expansion"
+    text: "BlueJ Legal"
     
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
+  - image : "assets/images/success_stories/pungle.jpg"
+    url: "https://betakit.com/toronto-fintech-startup-pungle-acquired-by-berkeley-payment-solutions/"
+    text: "Pungle"
     
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-4.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
+  - image : "assets/images/success_stories/quantum_capture.jpg"
+    url: "https://www.utoronto.ca/news/building-digital-humans-would-be-u-t-entrepreneurs-put-non-creepy-human-face-digital-assistants"
+    text: "Quantum Capture"
 
-
-# Portfolio Page
-portfolio-label:
-- {
-    title : "UI/UX Design",
-    type : "design"
-  }
-- {
-    title : "BRANDING",
-    type : "branding"
-  }
-- {
-    title : "ILLUSTRATION",
-    type : "illustration"
-  }
-
-portfolio-items:
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-     - type: "design"
-     - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-6.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-8.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-
+  - image : "assets/images/success_stories/phenomic.jpg"
+    url: "https://www.utoronto.ca/news/u-t-grad-s-ai-startup-raises-us15-million-accelerate-cancer-drug-discovery"
+    text: "Phenomic AI"
 
 #-------------------------------
 # Testimonials Section
@@ -230,35 +168,31 @@ testimonial-items:
 #-------------------------------
 # Client Slider Section
 
-client-slider-items:
+startup-slider-items:
   - logo: assets/images/clients-logo/bluej.jpg
-    url: "#"
+    url: "https://www.bluejlegal.com/"
   - logo: assets/images/clients-logo/brainsview.png
-    url: "#"
+    url: "http://www.brainsview.com/"
   - logo: assets/images/clients-logo/deeppixel.png
-    url: "#"
+    url: "https://www.deeppixel.ai/"
   - logo: assets/images/clients-logo/knowtions.png
-    url: "#"
+    url: "https://www.knowtions.com/"
   - logo: assets/images/clients-logo/phenomic.png
-    url: "#"
+    url: "https://phenomic.ai/"
   - logo: assets/images/clients-logo/pungle.png
-    url: "#"
+    url: "https://betakit.com/toronto-fintech-startup-pungle-acquired-by-berkeley-payment-solutions/"
   - logo: assets/images/clients-logo/quantum_capture.png
-    url: "#"
-  - logo: assets/images/clients-logo/rave.svg
-    url: "#"
+    url: "https://www.quantumcapture.com/"
   - logo: assets/images/clients-logo/ross.svg
-    url: "#"
-  - logo: assets/images/clients-logo/shield_crypto.png
-    url: "#"
+    url: "https://www.rossintelligence.com/"
   - logo: assets/images/clients-logo/stack.png
-    url: "#"
+    url: "https://www.getstack.ca/"
   - logo: assets/images/clients-logo/structura.png
-    url: "#"
+    url: "https://structura.bio/"
   - logo: assets/images/clients-logo/veerum.png
-    url: "#"
+    url: "https://www.veerum.com/"
   - logo: assets/images/clients-logo/winterlight.png
-    url: "#"
+    url: "https://winterlightlabs.com/"
 
 #-------------------------------
 # Contact Section
