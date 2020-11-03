@@ -1,0 +1,29 @@
+---
+title: Themes for all Terms
+layout: page
+link:
+  text: "Apply Now"
+  href: "https://drive.google.com/file/d/1voK_i_YBlnL3rG6t3EuPBpZhdLapAU5t/view?usp=sharing"
+---
+
+
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {% assign term_files = site.pages | where: "term", true %}
+      {% for term in term_files %}
+        <article class="card shadow col-12 col-md-6">
+          <img class="rounded card-img-top" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+          <div class="card-body">
+            <h4 class="card-title">
+              {{ term.title }}
+            </h4>
+            <p class="card-text">{{ term.excerpt | markdownify | strip_html }}</p>
+            <a href="{{ term.url | relative_url }}">View term</a>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

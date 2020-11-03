@@ -8,8 +8,8 @@ layout: default
     <div class="row">
       <div class="col-12 text-center">
         <h1 class="text-white font-tertiary">{{ page.title }}</h1>
-        {% if layout.link %}
-          <a href="{{ layout.link.href }}" class="btn btn-outline-light border">{{ layout.link.text }}</a>
+        {% if page.link %}
+          <a href="{{ page.link.href }}" class="btn btn-outline-light border">{{ page.link.text }}</a>
         {% endif %}
       </div>
     </div>

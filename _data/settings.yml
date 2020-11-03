@@ -11,11 +11,16 @@ phone: N/A
 address: 2nd Floor, Gerstein Science Information Centre, 9 King's College Circle, Toronto, ON M5S 1A5, University of Toronto
 copyright: Copyright &copy; 2020
 
-menu:
-- {name: 'Courses', link: 'student-courses'}
-- {name: 'Startups', link: 'startups'}
-- {name: 'Contact', link: 'contact'}
+theme:
+  term: Winter 2021
+  link: '/winter-2021'
 
+menu:
+  - {name: 'Courses', link: '/student-courses'}
+  - {name: 'Winter 2021', link: '/winter-2021'}
+  - {name: 'Startups', link: '/startups'}
+  - {name: 'Contact', link: '/contact'}
+    
 
 #-------------------------------
 # Google Analytics Section
