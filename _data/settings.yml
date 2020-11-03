@@ -157,16 +157,16 @@ startups:
 testimonial-items:
   - name: "Lauren Mark"
     designation : "Senior Manager Academic Relationships, RBC"
-    content : |
+    content: |
       Working with the DCSIL team has been great. It has truly been a collaborative effort to ensure that both RBC and U of T get the most out of the partnership. This has been an amazing opportunity to explore avenues for interesting solutions to some of our questions as well as meet extremely talented students.
       Partnering with Julian, Mario and the DCSIL team is truly a win-win situation for us.
     
   - name: "Johnny Jin"
     designation: "Former Student, Developer"
     content: |
-    I highly recommend taking both CSC454 and CSC491. Among all the CS courses I took, these courses were the closest to what you can learn in the industry.
-    CSC454 gives you a deep insight into how companies work as a whole, while CSC491 teaches you the industry standard of application development.
-    As a CS student, there are not a lot of opportunities to see the business side of a company and this course gives you just that!
+      I highly recommend taking both CSC454 and CSC491. Among all the CS courses I took, these courses were the closest to what you can learn in the industry.
+      CSC454 gives you a deep insight into how companies work as a whole, while CSC491 teaches you the industry standard of application development.
+      As a CS student, there are not a lot of opportunities to see the business side of a company and this course gives you just that!
     
   - name: "Jesica Gomez"
     image: "assets/images/testimonial/client-1.png"
