@@ -155,10 +155,11 @@ startups:
 # Testimonials Section
 
 testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation : "CEO, Funder"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Lauren Mark"
+    designation : "Senior Manager Academic Relationships, RBC"
+    content : |
+      Working with the DCSIL team has been great. It has truly been a collaborative effort to ensure that both RBC and U of T get the most out of the partnership. This has been an amazing opportunity to explore avenues for interesting solutions to some of our questions as well as meet extremely talented students.
+      Partnering with Julian, Mario and the DCSIL team is truly a win-win situation for us.
     
   - name: "Jesica Gomez"
     image: "assets/images/testimonial/client-1.png"
