@@ -1,4 +1,4 @@
-{% if site.data.settings.success-stories %}
+{% if site.data.settings.startups %}
 <!-- portfolio -->
 <section class="section">
   <div class="container">
@@ -11,7 +11,7 @@
       {% include client-slider.html %}
     </div>
     <div class="row shuffle-wrapper">
-      {% for item in site.data.settings.success-stories %}
+      {% for item in site.data.settings.startups %}
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
           <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">

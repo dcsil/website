@@ -13,7 +13,7 @@ copyright: Copyright &copy; 2020
 
 menu:
 - {name: 'Courses', link: 'student-courses'}
-- {name: 'Success Stories', link: 'success-stories'}
+- {name: 'Startups', link: 'startups'}
 - {name: 'Contact', link: 'contact'}
 
 
@@ -119,9 +119,9 @@ highlights:
   }
 
 #-------------------------------
-# Success Stories (Section and Page)
+# Startups (Section and Page)
 
-success-stories:
+startups:
   - image : "assets/images/success_stories/ross.jpg"
     url: "https://www.utoronto.ca/news/ai-success-story-u-t-s-ross-intelligence-returns-toronto-open-new-research-headquarters"
     text: "Ross Intelligence"
