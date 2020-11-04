@@ -9,7 +9,7 @@
           <!-- <img class="rounded card-img-top" src="{{ post.image | relative_url }}" alt="{{ post.title }}"> -->
           <div class="card-body">
             {% if staff.image %}
-              <img src="{{ staff.image }}" class="mb-4 rounded-circle" {% if staff.image_size %}width="{{ staff.image_size }}" height="{{ staff.image_size }}"{% endif %}/>
+              <img src="{{ staff.image }}" style="object-fit: cover;" class="mb-4 rounded-circle" {% if staff.image_size %}width="{{ staff.image_size }}" height="{{ staff.image_size }}"{% else %}width="150" height="150"{% endif %}/>
             {% endif %}
             <h4 class="card-title">
               {{ staff.title }}
