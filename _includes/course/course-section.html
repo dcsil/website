@@ -11,7 +11,7 @@
           <img src="{{ course.image | relative_url }}" class="card-img-top">
           <div class="card-body">
             <h4 class="card-title">{{ course.code }}</h4>
-            <p class="text-light font-secondary">{{ course.title }}</p>
+            <p class="text-light font-secondary">{{ course.course_title }}</p>
             <a href="./{{ course.code | split: '/' | first | downcase }}" class="btn btn-sm btn-primary">View Course</a>
           </div>
         </div>
@@ -20,7 +20,7 @@
     </div>
   </div>
 
-  {% include apply-section.html %}
+  {% include course/apply-section.html %}
 </section>
 
 <section class="section">

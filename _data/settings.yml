@@ -21,24 +21,6 @@ menu:
   - {name: 'Startups', link: '/startups', active: 'startups' }
   - {name: 'Contact', link: '/contact', active: 'contact' }
     
-
-#-------------------------------
-# Google Analytics Section
-
-# Analytics helps you understand who visits your website.
-# Learn more at: http://support.google.com/analytics/answer/1008065
-
-# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
-
-google-analytics: # UA-XXXXXX-X
-
-
-#-------------------------------
-# Comment Section (Disqus)
-
-disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
-
-
 #-------------------------------
 # Hero Section
 
@@ -155,12 +137,6 @@ testimonial-items:
       I highly recommend taking both CSC454 and CSC491. Among all the CS courses I took, these courses were the closest to what you can learn in the industry.
       CSC454 gives you a deep insight into how companies work as a whole, while CSC491 teaches you the industry standard of application development.
       As a CS student, there are not a lot of opportunities to see the business side of a company and this course gives you just that!
-    
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
 
 #-------------------------------
 # Client Slider Section
@@ -190,9 +166,3 @@ startup-slider-items:
     url: "https://www.veerum.com/"
   - logo: assets/images/startup-logo/winterlight.png
     url: "https://winterlightlabs.com/"
-
-#-------------------------------
-# Contact Section
-
-contact-title: Contact Us
-contact-email: dcsil@cs.toronto.edu
