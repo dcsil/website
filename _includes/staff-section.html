@@ -3,7 +3,7 @@
   <div class="container">
     <h2 class="section-title text-center">DCSIL Teaching Staff</h2>
     <div class="row">
-      {% assign staffs = site.pages | where: "staff", true | sort: "title" %}
+      {% assign staffs = site.pages | where: "type", "staff" | sort: "title" %}
       {% for staff in staffs %}
         <article class="card shadow col-12 col-md-4 text-center">
           <!-- <img class="rounded card-img-top" src="{{ post.image | relative_url }}" alt="{{ post.title }}"> -->

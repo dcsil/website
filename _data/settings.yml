@@ -87,19 +87,6 @@ work-process:
     icon : "assets/images/work/pitching.svg"
     content : "By the end of the term, you will deliver fully formed MVP products capable of continuing as startups. Some may continue to be successful ventures, as we've seen in the past."
 
-
-# Courses Section
-courses:
-  - code: CSC454/2527
-    image: "assets/images/class/class1.png"
-    title: "Business of Software"
-    instructor: mario
-    
-  - code: CSC491/2600
-    image: "assets/images/class/class2.jpg"
-    title: "Capstone Design Project"
-    instructor: julian
-
 #-------------------------------
 # Highlights Section
 
