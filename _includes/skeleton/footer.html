@@ -11,7 +11,7 @@
           <h5 class="text-light mt-4">Social</h5>
           <div class="d-flex">
             {% for social in site.data.settings.social %}
-            <div class="mr-3"><a class="text-white" href="{{ social.link }}"><i class="{{ social.icon }}"></i></a></div>
+            <div class="mr-3"><a class="text-white" aria-label="{{ social.label }}" href="{{ social.link }}"><i class="{{ social.icon }}"></i></a></div>
             {% endfor %}
           </div>
           <!-- /social icon -->
@@ -24,7 +24,7 @@
     </div>
   </div>
   <div class="border-top text-center border-dark py-5">
-    <p class="mb-0 text-light">{{site.data.settings.copyright | markdownify}}</p>
+    <p class="mb-0 text-white">{{site.data.settings.copyright}}</p>
   </div>
 </footer>
 <!-- /footer -->
