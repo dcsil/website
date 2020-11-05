@@ -10,5 +10,5 @@ This semester we have teamed up with the [Canadian Sport Institute Pacific (CSIP
 
 CSIP is a world class Olympic and Paralympic training environment. Through the support of national and provincial partners, the team of CSIP sports scientists and medical experts provide leading edge programs and services to athletes and coaches to ensure they have every advantage to win medals for Canada. They are committed to Powering Performance and Inspiring Excellence.
 
-CSIP is the team behind the team - and they have asked our class to work with them and their sport partners. They have offered to donate data, problem sets, and subject matter support by their team in Biomechanics & Performance Analysis led by [Dr. Ming-Chang Tsai.](https://www.csipacific.ca/tag/ming-chang-tsai/)
+CSIP is the team behind the team - and they have asked our class to work with them and their sport partners. They have offered to donate data, problem sets, and subject matter support by their team in Biomechanics & Performance Analysis led by [Dr. Ming-Chang Tsai.](https://www.linkedin.com/in/ming-chang-tsai-22b0a3b1)
 
