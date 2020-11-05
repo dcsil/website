@@ -1,13 +1,18 @@
+function didScroll() {
+    if ($('.navigation').offset().top > 100) {
+        $('.navigation').addClass('nav-bg');
+    } else {
+        $('.navigation').removeClass('nav-bg');
+    }
+}
+
 (function ($) {
     'use strict';
 
     // Sticky Menu
+    didScroll();
     $(window).scroll(function () {
-        if ($('.navigation').offset().top > 100) {
-            $('.navigation').addClass('nav-bg');
-        } else {
-            $('.navigation').removeClass('nav-bg');
-        }
+        didScroll();
     });
 
     // Background-images
