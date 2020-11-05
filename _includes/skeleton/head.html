@@ -12,7 +12,7 @@
   
   <!-- ** Plugins Needed for the Project ** -->
   {% for css in site.data.plugins.css %}
-  <link rel="stylesheet" href="{{ css | relative_url }}">
+  <link rel="stylesheet" rel="preload" href="{{ css | relative_url }}">
   {% endfor %}
 
   <!-- Main Stylesheet -->
