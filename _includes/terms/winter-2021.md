@@ -6,7 +6,7 @@ The second way we create a true-to-life experience is by sourcing industry probl
 
 ## Industry Collaboration
 
-This semester we have teamed up with the[Canadian Sport Institute Pacific (CSI Pacific).](https://www.csipacific.ca/)
+This semester we have teamed up with the [Canadian Sport Institute Pacific (CSI Pacific).](https://www.csipacific.ca/)
 
 CSI Pacific is a world-class institute that fosters an ideal Olympic and Paralympic training environment. Through the support of national and provincial partners, CSI Pacific’s sport scientists and medical experts provide leading-edge programs and services to athletes and coaches in order to ensure they have every advantage to win medals for Canada. They are committed to Powering Performance. Inspiring Excellence.
 
