@@ -4,11 +4,11 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h5 class="text-light">Email</h5>
+          <p class="h5 text-light">Email</p>
           <a href="mailto:{{ site.data.settings.email }}" class="text-white paragraph-lg font-secondary">{{ site.data.settings.email }}</a>
           
           <!-- social icon -->
-          <h5 class="text-light mt-4">Social</h5>
+          <p class="h5 text-light mt-4">Social</p>
           <div class="d-flex">
             {% for social in site.data.settings.social %}
             <div class="mr-3"><a class="text-white" aria-label="{{ social.label }}" href="{{ social.link }}"><i class="{{ social.icon }}"></i></a></div>
@@ -17,7 +17,7 @@
           <!-- /social icon -->
         </div>
         <div class="col-md-6">
-          <h5 class="text-light">Address</h5>
+          <p class="h5 text-light">Address</p>
           <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.address }}</p>
         </div>
       </div>
