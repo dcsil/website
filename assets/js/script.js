@@ -22,22 +22,41 @@ function didScroll() {
         });
     });
 
+    function slickArrow(dir) {
+        const dirArrow = dir === 'prev' ? '<i class="ti-angle-left">' : '<i class="ti-angle-right">'
+        return `<button type='button' class='border-0 bg-none slick-arrow text-white'>${dirArrow}</button>`
+    }
+
     // testimonial-slider
     $('.testimonial-slider').slick({
+        lazyLoad: 'onDemand',
         dots: true,
+        pauseOnHover: true,
         infinite: true,
         autoplay: true,
         speed: 400,
         arrows: false,
+        appendArrows: '.testimonial-slider-arrows',
         slidesToShow: 1,
         slidesToScroll: 1,
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        prevArrow: slickArrow('prev'),
+        nextArrow: slickArrow('next'),
+        responsive: [{
+            breakpoint: 560,
+            settings: {
+                dots: false,
+                arrows: true
+            }
+        }]
     });
 
 
     // clients logo slider
     $('.startup-slider').slick({
+        lazyLoad: 'onDemand',
         infinite: true,
+        pauseOnHover: true,
         speed: 300,
         slidesToShow: 5,
         slidesToScroll: 1,

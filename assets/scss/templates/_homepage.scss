@@ -136,6 +136,15 @@
   transition: .3s ease;
 }
 
+.bg-none {
+  background: none;
+}
+
+.slick-arrow {
+  width: 48px;
+  height: 48px;
+}
+
 .hover-content {
   position: absolute;
   top: 50%;
