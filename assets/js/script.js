@@ -24,7 +24,8 @@ function didScroll() {
 
     function slickArrow(dir) {
         const dirArrow = dir === 'prev' ? '<i class="ti-angle-left">' : '<i class="ti-angle-right">'
-        return `<button type='button' class='border-0 bg-none slick-arrow text-white'>${dirArrow}</button>`
+        const alt = dir === 'prev' ? 'Previous testimonial' : 'Next testimonial'
+        return `<button type='button' aria-label='${alt}' title='${alt}' class='border-0 bg-none slick-arrow text-white'>${dirArrow}</button>`
     }
 
     // testimonial-slider
