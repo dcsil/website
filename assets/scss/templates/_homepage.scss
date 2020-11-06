@@ -99,6 +99,18 @@
     object-fit: cover;
   }
 
+  @include mobile {
+    img {
+      width: 100%;
+      transform: scale(1);
+    }
+
+    .hover-overlay {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
   &:hover {
     img {
       transform: scale(1);
@@ -131,6 +143,10 @@
   left: 0;
   right: 0;
   text-align: center;
+
+  @include mobile {
+    top: 80%;
+  }
 }
 
 /* /portfolio */

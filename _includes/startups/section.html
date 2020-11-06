@@ -12,9 +12,9 @@
     </div>
     <div class="row shuffle-wrapper">
       {% for item in site.data.settings.startups %}
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+      <div class="col-lg-4 col-md-6 col-12 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
-          <img src="{{ site.baseurl }}/{{ item.image }}" height="256" width="auto" loading="lazy" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <img src="{{ site.baseurl }}/{{ item.image }}" height="256" width="auto" loading="lazy" alt="portfolio-image" class="startup-image img-fluid rounded d-block">
           <div class="hover-overlay">
             <div class="hover-content">
               <a class="btn btn-light btn-sm" href="{{ item.url }}">{{ item.text }}</a>
