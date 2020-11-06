@@ -4,11 +4,10 @@ Customer development teaches you how to engage prospective customers in order to
 
 The second way we create a true-to-life experience is by sourcing industry problems. That means we go out and seek industry partners that provide problem sets for our students to solve during the semester. Problems that are really challenging their businesses. No make-believe issues or theoretical hallucinations but the problems that are costing them financially or reputation every single day!  We’ve done this before with subjects such as law, biomed/biotech and human performance enhancement.
 
-## The partnership
+## Industry Collaboration
 
-This semester we have teamed up with the [Canadian Sport Institute Pacific (CSIP).](https://www.csipacific.ca/)
+This semester we have teamed up with the[Canadian Sport Institute Pacific (CSI Pacific).](https://www.csipacific.ca/)
 
-CSIP is a world class Olympic and Paralympic training environment. Through the support of national and provincial partners, the team of CSIP sports scientists and medical experts provide leading edge programs and services to athletes and coaches to ensure they have every advantage to win medals for Canada. They are committed to Powering Performance and Inspiring Excellence.
+CSI Pacific is a world-class institute that fosters an ideal Olympic and Paralympic training environment. Through the support of national and provincial partners, CSI Pacific’s sport scientists and medical experts provide leading-edge programs and services to athletes and coaches in order to ensure they have every advantage to win medals for Canada. They are committed to Powering Performance. Inspiring Excellence.
 
-CSIP is the team behind the team - and they have asked our class to work with them and their sport partners. They have offered to donate data, problem sets, and subject matter support by their team in Biomechanics & Performance Analysis led by [Dr. Ming-Chang Tsai.](https://www.linkedin.com/in/ming-chang-tsai-22b0a3b1)
-
+CSI Pacific is the team behind the team and they have asked our class to work alongside them and their sport partners. They have offered to donate data, problem sets and subject matter supported by the team in Biomechanics & Performance Analysis, led by [Dr. Ming-Chang Tsai.](https://www.linkedin.com/in/ming-chang-tsai-22b0a3b1)
