@@ -31,25 +31,18 @@ function didScroll() {
     // testimonial-slider
     $('.testimonial-slider').slick({
         lazyLoad: 'onDemand',
-        dots: true,
         pauseOnHover: true,
         infinite: true,
         autoplay: true,
         speed: 400,
-        arrows: false,
+        dots: false,
+        arrows: true,
         appendArrows: '.testimonial-slider-arrows',
         slidesToShow: 1,
         slidesToScroll: 1,
         adaptiveHeight: true,
         prevArrow: slickArrow('prev'),
         nextArrow: slickArrow('next'),
-        responsive: [{
-            breakpoint: 560,
-            settings: {
-                dots: false,
-                arrows: true
-            }
-        }]
     });
 
 
