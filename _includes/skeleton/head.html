@@ -5,7 +5,8 @@
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
   <meta name="description" content="{%if page.description%}{{page.description}}{%else%}{{site.data.settings.description}}{%endif%}">
-    
+  <meta name="theme-color" content="#1C4E46">
+
   {% if site.author %}
   <meta name="author" content="{{ . }}">
   {% endif %}
@@ -21,4 +22,5 @@
   <!--Favicon-->
   <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' | relative_url }} " type="image/x-icon">
   <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }} " type="image/x-icon">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/apple_touch.png' | relative_url }}">
 </head>

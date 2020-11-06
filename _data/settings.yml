@@ -27,7 +27,7 @@ menu:
 hero:
   hero-title: WHERE <strong>FOUNDERS</strong> ARE MADE
   hero-subtitle: Join the DCSIL Program in our unique and innovative courses at the University of Toronto.
-  hero-btn-text: Learn More
+  hero-btn-text: Learn about our Courses
   hero-btn-link: student-courses
   hero-secondary-btn-text: Donate to the Program
   hero-secondary-btn-link: https://donate.utoronto.ca/DCSIL
@@ -47,7 +47,7 @@ blurb:
   DCSIL’s priorities include teaching entrepreneurship, research to commercialization, startup creation, and student-industry engagement.
 
 blurb-btn-link: 'student-courses'
-blurb-btn-name: Learn more
+blurb-btn-name: Learn morabout our courses
 
 # About Page
 

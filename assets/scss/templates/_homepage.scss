@@ -94,6 +94,9 @@
   img {
     transition: .3s ease;
     transform: scale(1.1);
+    height: 256px;
+    width: auto;
+    object-fit: cover;
   }
 
   &:hover {
