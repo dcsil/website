@@ -12,12 +12,12 @@ address: 2nd Floor, Gerstein Science Information Centre, 9 King's College Circle
 copyright: Copyright &copy; 2020
 
 theme:
-  term: Winter 2021
-  link: '/winter-2021'
+  term: Fall 2021
+  link: '/fall-2021'
 
 menu:
   - {name: 'Courses', link: '/student-courses', active: 'course' }
-  - {name: 'Winter 2021', link: '/winter-2021' , active: 'term' }
+  - {name: 'Fall 2021', link: '/fall-2021' , active: 'term' }
   - {name: 'Startups', link: '/startups', active: 'startups' }
   - {name: 'Contact', link: '/contact', active: 'contact' }
     

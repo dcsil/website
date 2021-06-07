@@ -12,8 +12,10 @@ layout: default
         {% endif %}
         <h1 class="text-white font-tertiary">{{ page.title }}</h1>
         {% if page.description %}<p class="lead text-white font-tertiary">{{ page.description }}</p>{% endif %}
-        {% if page.link %}
+        {% if page.link and page.link.href %}
           <a href="{{ page.link.href }}" class="btn btn-outline-light border">{{ page.link.text }}</a>
+        {% else if page.link and page.link.text %}
+          <span class="btn btn-outline-light disabled border">{{ page.link.text }}</span>
         {% endif %}
       </div>
     </div>
