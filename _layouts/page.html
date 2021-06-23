@@ -15,7 +15,10 @@ layout: default
         {% if page.link and page.link.href %}
           <a href="{{ page.link.href }}" class="btn btn-outline-light border">{{ page.link.text }}</a>
         {% else if page.link and page.link.text %}
-          <span class="btn btn-outline-light disabled border">{{ page.link.text }}</span>
+          {% assign text = page.link.text | strip %}
+          {% if text != "" %}
+            <span class="btn btn-outline-light disabled border">{{text }}</span>
+          {% endif %}
         {% endif %}
       </div>
     </div>
