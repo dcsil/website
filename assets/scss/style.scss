@@ -37,22 +37,16 @@ VERSION:	Versoin Number
 table {
   width: 100%;
   margin-bottom: 1rem;
-  color: $table-color;
-  background-color: $table-bg; // Reset for nesting within parents with `background-color`.
 
   th,
   td {
-    padding: $table-cell-padding;
+    padding: 0.75rem
     vertical-align: top;
-    border-top: $table-border-width solid $table-border-color;
+    border-top: 1px solid #dee2e6;
   }
 
   thead th {
     vertical-align: bottom;
-    border-bottom: (2 * $table-border-width) solid $table-border-color;
-  }
-
-  tbody + tbody {
-    border-top: (2 * $table-border-width) solid $table-border-color;
+    border-bottom: 2px solid #dee2e6;
   }
 }
