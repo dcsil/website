@@ -8,9 +8,9 @@ We do not believe that this program can be successful without this collaboration
 
 ## The Participation Mark
 
-The mark will be determined based on your participation in your team's GitHub repositories. Repositories are listed on your [team's profile](/my_team).
+The mark will be determined based on your participation in your team's GitHub repositories. Repositories are listed on your [team's profile](https://learnsoftware.engineering/my_team).
 
-You can see the snapshot of your participation. These stats will gauge your participation at a high level, on your [profile](/profile).
+You can see the snapshot of your participation. These stats will gauge your participation at a high level, on your [profile](https://learnsoftware.engineering/profile).
 
 ### How will it be marked?
 
