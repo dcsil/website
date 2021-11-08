@@ -6,4 +6,9 @@ The second way we create a true-to-life experience is by sourcing industry probl
 
 ## Industry Collaboration
 
-This will be announced soon!
+We are partnering with Dandelion Networks, a startup in block chain and cryptography in Toronto. The theme for this term will be to build a startup using/around blockchain technologies (excluding exchanges, portfolios, or anything to do with transfers). Blockchain is most well known for its use in cryptocurrency, though there are a number of other avenues to use it. Examples include immutable ledger-based information systems, privacy related ventures, and compliance and regulatory environments, and more. There also exist problems that need to be solved around efficiency and environmental impact. Join DCSIL and Dandelion networks, a highly scalable startup in the blockchain space, in winter 2022 to work on this exciting opportunity!
+
+
+#### More on Dandelion Networks:
+
+Dandelion Networks is a company built around Blockchain technology. While they can help in most areas related to Blockchain, they are highly knowledgable in Cryptographic signature systems. We'd recommend taking an extra look at startups and problems in that space. Cryptographic signature systems are central to providing validation and security in modern networks, but the signatures require a huge amount of work from computers.  Dandelion is working on ground-breaking algorithms, such as the Boneh-Lynn-Shacham (BLS) cryptosystem, which work to solve this problem. These algorithms, while breakthrough, have not solved the problem for a variety of reasons. How can we bridge those gaps and provide a commercially viable solution in the cryptographic space when it comes to costs and sustainability?
