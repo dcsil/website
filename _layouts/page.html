@@ -12,12 +12,18 @@ layout: default
         {% endif %}
         <h1 class="text-white font-tertiary">{{ page.title }}</h1>
         {% if page.description %}<p class="lead text-white font-tertiary">{{ page.description }}</p>{% endif %}
-        {% if page.link and page.link.href %}
-          <a href="{{ page.link.href }}" class="btn btn-outline-light border">{{ page.link.text }}</a>
-        {% else if page.link and page.link.text %}
-          {% assign text = page.link.text | strip %}
-          {% if text != "" %}
-            <span class="btn btn-outline-light disabled border">{{text }}</span>
+        {% if page.link %}
+          {% if page.link.first %}
+            {% if page.link.href %}
+              <a href="{{ page.link.href }}" class="btn btn-outline-light border">{{ page.link.text }}</a>
+            {% else if page.link.text %}
+              {% assign text = page.link.text | strip %}
+              {% if text != "" %}
+                <span class="btn btn-outline-light disabled border">{{text }}</span>
+              {% endif %}
+            {% endif %}
+          {% else %}
+            <a href="{{ site.data.settings[page.link].link }}" class="btn btn-outline-light border">{{ site.data.settings[page.link].title }}</a>
           {% endif %}
         {% endif %}
       </div>
