@@ -1,6 +1,8 @@
 ## Application Process
 
-Applications are not open yet
+- Applications for those applying to **both** CSC491/2600 and CSC454/2527 will open in November 7th 2022
+- Applications for those applying to **only** CSC454/2527 will open in December 1st 2022
+
 
 <br>
 
