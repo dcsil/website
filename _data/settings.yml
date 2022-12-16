@@ -28,7 +28,6 @@ theme:
 
 menu:
   - {name: 'Courses', link: '/student-courses', active: 'course' }
-  - {name: 'Fall 2022', link: '/fall-2022' , active: 'fall_term' }
   - {name: 'Winter 2023', link: '/winter-2023' , active: 'winter_term' }
   - {name: 'Startups', link: '/startups', active: 'startups' }
   - {name: 'Contact', link: '/contact', active: 'contact' }
