@@ -4,6 +4,10 @@
 - Applications for those applying to **only** CSC454/2527 will open in December 1st 2022
 
 
+
+**Applications for CSC491/2600 are closed. We are nearing capacity for CSC454/2527.**
+
+
 <br>
 
 ## Student Expectations
