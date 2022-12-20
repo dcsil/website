@@ -5,7 +5,7 @@
 
 
 
-**Applications for CSC491/2600 are closed. We are nearing capacity for CSC454/2527.**
+**Applications are closed.**
 
 
 <br>
