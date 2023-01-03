@@ -28,4 +28,13 @@ The second way we create a true-to-life experience is by sourcing industry probl
 
 ## Industry Collaboration
 
-To be announced!
+We are partnering with EAIGLE, a startup in computer vision in Toronto. The theme for this term will be to build a startup using/around computer vision technologies.
+
+Nowadays due to advancement in AI, computational power, and vision technology, computer vision systems can see and understand the world around us in a human-like fashion. With these recent advancements in sophisticated cameras, image sensors, and deep learning methods, the scope of the use of computer vision systems has expanded across a wide range of industries, such as healthcare, education, robotics, manufacturing, retail, consumer electronics, and security and surveillance.
+
+According to many market research analyses, the global market size of computer vision will grow to more than 40 billion dollars in less than a decade. Join DCSIL and EAIGLE, a human-centric Al company developing enterprise computer vision solutions, in winter 2023 to work on this exciting opportunity!
+
+### More on EAIGLE
+
+EAIGLE is a human-centric Al company developing enterprise computer vision solutions for the workplace and public spaces to optimize processes, reduce costs and grow revenue. As one of the fastest-growing AI companies in Canada, EAIGLE continues to drive new product innovation and expand its reach with a diverse customer and partner footprint that spans across the Americas and Europe.
+
