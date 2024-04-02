@@ -1,4 +1,4 @@
-Julian Nadeau is a Senior Software Developer at GitHub. His experience with software development and platform-level engineering is extensive and varied. He's worked for years in the field with experience in numerous types of software development in both startup environments and in a large organization.
+Julian Nadeau is a Staff Software Developer at Stripe. His experience with software development and platform-level engineering is extensive and varied. He's worked for years in the field with experience in numerous types of software development in both startup environments and in a large organization.
 
 He has worked on and continuously improved many software projects during his career, as well as founding and running a Google-sponsored not-for-profit program to teach children to code, has enabled me to adjust to new environments and roles quickly.
 

@@ -23,12 +23,12 @@ links:
     link: "#"
 
 theme:
-  term: Winter 2023
-  link: '/winter-2023'
+  term: Winter 2025
+  link: '/winter-2025'
 
 menu:
   - {name: 'Courses', link: '/student-courses', active: 'course' }
-  - {name: 'Winter 2023', link: '/winter-2023' , active: 'winter_term' }
+  - {name: 'Winter 2025', link: '/winter-2025' , active: 'winter_term' }
   - {name: 'Startups', link: '/startups', active: 'startups' }
   - {name: 'Contact', link: '/contact', active: 'contact' }
     
