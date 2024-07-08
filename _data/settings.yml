@@ -9,12 +9,13 @@ email: contact@dcsil.ca
 formspree: https://formspree.io/f/mwkwbrvl
 phone: N/A
 address: 2nd Floor, Gerstein Science Information Centre, 9 King's College Circle, Toronto, ON M5S 1A5, University of Toronto
-copyright: Copyright &copy; 2020
+copyright: Copyright &copy; 2024
 
 links:
   apply:
     title: "Apply Now"
-    link: "/_pages/pdfs/ballot/fall-2022-winter-2023.pdf"
+    link: https://q.utoronto.ca/courses/221753/pages/400-level-course-balloting-and-applications
+    # link: "/_pages/pdfs/ballot/fall-2022-winter-2023.pdf"
   closed:
     title: "Applications are Closed"
     link: "#"
