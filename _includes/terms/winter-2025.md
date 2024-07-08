@@ -1,6 +1,6 @@
 ## Application Process
 
-- Applications for those applying to CSC491/2600 and CSC454/2527 are open! Click the button above.
+- Applications for CSC491/2600 and CSC454/2527 are open! Click the button above.
 
 <br>
 
