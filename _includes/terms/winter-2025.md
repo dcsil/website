@@ -22,4 +22,12 @@ The second way we create a true-to-life experience is by sourcing industry probl
 
 ## Industry Collaboration
 
-TBD
+This term we are excited to be partnering with [Cohere](https://cohere.com/), a Toronto-based startup focused on artificial intelligence for the enterprise, specializing in large language models (LLMs). The theme for this term will be to build a startup applying LLM technologies to real-world challenges and systems.
+
+Needless to say, advancements in LLMs over recent years have captured public interest and the attention of technology sector. This has only further accelerated core research and applied improvements in LLM performance, accuracy, and costs for successful integration into a wide range of industries such as retail, e-commerce, healthcare, IT, media and entertainment. According to [some market research analyses](https://www.polarismarketresearch.com/press-releases/large-language-model-llm-market#:~:text=%7C%20CAGR%3A%2032.1%25-,Large%20Language%20Model%20(LLM)%20Market%20Size%20Worth%20%2461.74%20Billion%20by,study%20by%20Polaris%20Market%20Research.), the global LLM market is projected to grow to $61.7 billion by 2032, driven by the increasing need for improved communication between humans and machines and the growing demand for automated content creation. 
+
+### More on Cohere
+
+Cohere is a research-driven generative AI company, with a strong research presence at the core of its founding and culture. In 2022, Cohere announced [Cohere for AI](https://cohere.com/research), a non-profit research lab that provides both dedicated research staffing and support for open science initiatives, with a focus on fundmanetal research and responsible AI.
+
+Cohere’s models can be used across 10 languages, including English, Spanish, Chinese, Arabic and Japanese, and its models can cite sources in answers as well. Beyond language models, Cohere's platform offers state-of-the-art [embedding](https://cohere.com/embeddings) and [rerank](https://cohere.com/rerank) APIs, which can be used to power high-precision search applications grounded on external data sources.
