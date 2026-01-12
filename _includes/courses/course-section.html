@@ -35,7 +35,7 @@
           <div class="card-body">
             <h4 class="card-title">{{ course.code }}</h4>
             <p class="text-light font-secondary">{{ course.course_title }}</p>
-            <a href="{{ course.url }}" class="btn btn-sm btn-primary">View Course</a>
+            <a href="{{ site.baseurl }}/courses/{{ course.code | split: '/' | first | downcase }}" class="btn btn-sm btn-primary">View Course</a>
           </div>
         </div>
       {% endfor %}
