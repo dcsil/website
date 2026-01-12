@@ -1,0 +1,9 @@
+Atoosa Nasiri is a Cloud Architect and Senior Data Scientist at [TELUS Mobility](https://www.telus.com/en/mobility), where she leads initiatives that merge large-scale cloud infrastructure with applied AI. She is part of the [TELUS AI Accelerator](https://www.linkedin.com/showcase/telus-ai-accelerator) team, a group of AI experts working to bring AI-powered solutions to life across TELUS. Atoosa is also a Sessional Instructor in the Department of Computer Science at the University of Toronto, where she teaches CSC491/2600 (Capstone Design Project).
+
+Previously, Atoosa was a PhD candidate at the University of Toronto's Edward S. Rogers Sr. Department of Electrical & Computer Engineering, where she conducted research on [cloud-based data routing and network softwarization](https://www.ece.utoronto.ca/news/cloud-based-data-routing-receives-major-investment-nserc-create/) as part of the NSERC CREATE program in Network Softwarization. Her work focused on optimizing distributed systems and cloud resource efficiency, which continues to inform her approach to building scalable, intelligent, and resilient AI systems.
+
+With a strong background in AI research and cloud architecture, Atoosa brings practical industry experience to her teaching. She has contributed to advancing the Canadian AI ecosystem and has shared her expertise at prominent conferences, including the [35th annual IEEE CASCON Conference](https://conf.researchr.org/profile/cascon-2025/atoosanasiri), where she participated as a panelist in the GEMinAI (Advancing Gender-Inclusive AI) track.
+
+In CSC491/2600, Atoosa guides students through the development of market-ready capstone projects, helping them bridge the gap between academic learning and industry standards. She emphasizes real-world application, modern technology stacks, and professional engineering practices.
+
+For more information, visit her [LinkedIn profile](https://www.linkedin.com/in/atoosanasiri/).

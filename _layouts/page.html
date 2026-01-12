@@ -8,7 +8,7 @@ layout: default
     <div class="row">
       <div class="col-12 text-center">
         {% if page.image %}
-          <img src="{{ page.image }}" class="mb-4 rounded-circle" style="object-fit: cover;" {% if page.image_size %}width="{{ page.image_size }}" height="{{ page.image_size }}"{% else %}height="100" width="100"{% endif %} />
+          <img src="{{ page.image | relative_url }}" class="mb-4 rounded-circle" style="object-fit: cover;" {% if page.image_size %}width="{{ page.image_size }}" height="{{ page.image_size }}"{% else %}height="100" width="100"{% endif %} />
         {% endif %}
         <h1 class="text-white font-tertiary">{{ page.title }}</h1>
         {% if page.description %}<p class="lead text-white font-tertiary">{{ page.description }}</p>{% endif %}
@@ -23,7 +23,12 @@ layout: default
               {% endif %}
             {% endif %}
           {% else %}
-            <a href="{{ site.data.settings.links[page.link].link }}" class="btn btn-outline-light border">{{ site.data.settings.links[page.link].title }}</a>
+            {% assign link_url = site.data.settings.links[page.link].link %}
+            {% if link_url contains "http" %}
+              <a href="{{ link_url }}" class="btn btn-outline-light border" target="_blank" rel="noopener noreferrer">{{ site.data.settings.links[page.link].title }}</a>
+            {% else %}
+              <a href="{{ link_url }}" class="btn btn-outline-light border">{{ site.data.settings.links[page.link].title }}</a>
+            {% endif %}
           {% endif %}
         {% endif %}
       </div>

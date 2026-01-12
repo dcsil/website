@@ -24,14 +24,32 @@ links:
     link: "#"
 
 theme:
-  term: Winter 2025
-  link: '/winter-2025'
+  partners: Winter 2025
+  link: '/industry-partners'
 
 menu:
-  - {name: 'Courses', link: '/student-courses', active: 'course' }
-  - {name: 'Winter 2025', link: '/winter-2025' , active: 'winter_term' }
-  - {name: 'Startups', link: '/startups', active: 'startups' }
-  - {name: 'Contact', link: '/contact', active: 'contact' }
+  - name: 'Courses'
+    link: '/courses'
+    active: 'course'
+    submenu:
+      - {name: 'DCSIL Courses', link: '/courses'}
+      - {name: 'CSC454 - Business of Software', link: '/courses/csc454'}
+      - {name: 'CSC491 - Capstone Design', link: '/courses/csc491'}
+      - {name: 'Founders Expectations', link: '/courses/founders'}
+  - {name: 'Applications', link: '/applications', active: 'applications' }
+  - name: 'Industry Partners'
+    link: '/industry-partners'
+    active: 'winter_partners'
+    submenu:
+      - {name: 'Strategic Partnership', link: '/industry-partners'}
+      - {name: 'DCSIL Industry Partners', link: '/industry-partners/meet-partners'}
+  - name: 'Guest Speakers'
+    link: '/guest-speakers'
+    active: 'guest_speakers'
+    submenu:
+      - {name: 'Guest Speakers Program', link: '/guest-speakers'}
+      - {name: 'DCSIL Guest Speakers', link: '/guest-speakers/meet-speakers'}
+  - {name: 'Team', link: '/team/team', active: 'team' }
     
 #-------------------------------
 # Hero Section
@@ -40,7 +58,7 @@ hero:
   hero-title: WHERE <strong>FOUNDERS</strong> ARE MADE
   hero-subtitle: Join the DCSIL Program in our unique and innovative courses at the University of Toronto.
   hero-btn-text: Learn about our Courses
-  hero-btn-link: student-courses
+  hero-btn-link: courses
   hero-secondary-btn-text: Donate to the Program
   hero-secondary-btn-link: https://donate.utoronto.ca/DCSIL
 
@@ -58,7 +76,7 @@ blurb:
   The Department of Computer Science Innovation Lab (DCSIL) is both a startup incubator and accelerator at the University of Toronto.
   DCSIL’s priorities include teaching entrepreneurship, research to commercialization, startup creation, and student-industry engagement.
 
-blurb-btn-link: 'student-courses'
+blurb-btn-link: 'courses'
 blurb-btn-name: Learn morabout our courses
 
 # About Page
@@ -82,9 +100,28 @@ work-process:
     content : "By the end of the term, you will deliver fully formed MVP products capable of continuing as startups. Some may continue to be successful ventures, as we've seen in the past."
 
 #-------------------------------
+# Industry Partnership Blueprint Section
+partnership-blueprint:
+  - title : "Connect & Consult"
+    icon : "assets/images/partnership/connect-consult.svg"
+    content : "Industry partners reach out to discuss their technical challenges and innovation goals. We assess the opportunity and match it with student capabilities and learning objectives."
+  
+  - title : "Define & Align"
+    icon : "assets/images/partnership/define-align.svg"
+    content : "We work together to scope the project, establish clear deliverables, and create a partnership agreement. This ensures alignment between business needs and educational outcomes."
+    
+  - title : "Build & Collaborate"
+    icon : "assets/images/partnership/build-collaborate.svg"
+    content : "Student teams work directly with your organization throughout the term. Regular check-ins, iterative feedback, and agile development ensure the project stays on track."
+    
+  - title : "Deliver & Scale"
+    icon : "assets/images/partnership/deliver-scale.svg"
+    content : "At project completion, you receive working products, technical documentation, and insights. Many partnerships continue with follow-up projects or lead to hiring talented graduates."
+
+#-------------------------------
 # Highlights Section
 
-highlights-title: Our Focus
+highlights-title: DCSIL Focus Areas
 highlights:
 - {
     name: Startup Creation,
@@ -93,13 +130,13 @@ highlights:
     active: # Add true to select section
   }
 - {
-    name: Teaching,
+    name: Courses,
     icon: ti-pencil-alt,
     description: 'The DCSIL program focuses on bringing software and startup specific education to undergraduate and graduate classes at the University of Toronto.',
     active: true # Add true to select section
   }
 - {
-    name: Industry engagement,
+    name: Industry Partnership,
     icon: ti-world,
     description: 'Each semester we focus on engaging students with business partners in the industry. These partners mentor and guide the students in their startup while gaining invaluable exposure to brilliant students.',
     active: # Add true to select section

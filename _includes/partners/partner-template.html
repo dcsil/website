@@ -1,0 +1,69 @@
+<!-- partner-template -->
+<!-- Template for partner pages. Replace placeholders with actual content:
+     - PARTNER_YEAR: e.g., "Winter 2025"
+     - PARTNER_LOGO: e.g., "Cohere-Logo.svg"
+     - PARTNER_ALT: e.g., "Cohere Logo"
+     - PARTNER_URL: e.g., "https://cohere.com/"
+     - PARTNER_TAGLINE: e.g., "Where powerful AI meets practical business solutions"
+     - PARTNER_NAME: e.g., "Cohere"
+     - PARTNER_DESCRIPTION: Partner description paragraphs
+     - PARTNER_ABOUT: About our partner content
+-->
+<style>
+.partner-logo-link {
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+.partner-logo-link:hover {
+  transform: scale(1.05);
+}
+.winter-year {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1C4E46;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #1C4E46;
+  display: inline-block;
+}
+.partner-label {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #6B6B6B;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+</style>
+<section class="section" style="padding-top: 40px; padding-bottom: 40px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="winter-year">PARTNER_YEAR</div>
+        <div class="partner-label">Industry Partner</div>
+        <a href="PARTNER_URL" target="_blank" rel="noopener noreferrer" class="partner-logo-link d-inline-block mb-3">
+          <img src="{{ 'assets/images/partners/PARTNER_LOGO' | relative_url }}" alt="PARTNER_ALT" style="min-width: 400px; width: auto; height: auto; object-fit: contain;">
+        </a>
+        <p class="text-muted mb-4" style="font-style: italic; font-size: 1.1rem;">PARTNER_TAGLINE</p>
+      </div>
+      
+      <div class="col-12">
+        <!-- PARTNER_DESCRIPTION -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top: 40px; padding-bottom: 40px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">About Our Partner</h2>
+      </div>
+      
+      <div class="col-12">
+        <!-- PARTNER_ABOUT -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /partner-template -->

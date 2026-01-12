@@ -1,0 +1,45 @@
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Industry Partnership</h2>
+      </div>
+      
+      <div class="col-12">
+        <p>In the DCSIL incubator, we do not build in a vacuum. We collaborate with high-tier industry leaders who act as The Problem Architects, providing raw, unresolved industry pain points rather than pre-defined project specifications. These partners deliver high-level problem statements that serve as the foundational ground truth for the Dual-Track Ecosystem. Within the CSC454 track, it is your mandate to deconstruct these statements, validate customer personas, and ideate a sustainable business model and monetizable product strategy. For those enrolled in the CSC491 track, this strategic foundation transitions into technical execution, where you build the market-ready solution you have conceived.</p>
+        
+        <ul>
+          <li class="my-2">Our industry partners change each term, ensuring we only collaborate with organizations operating at the highest technological edge and within high-impact sectors (e.g., HealthCare AI, Cybersecurity, Fintech).</li>
+          <li class="my-2">Partners and themes are rigorously selected to ensure that teams are working on marketable, viable ventures with genuine commercial potential.</li>
+          <li class="my-2">Industry partners provide the problem, not the solution. They do not engage in "solutioning" or technical troubleshooting; their role is to help you deeply understand the problem statement.</li>
+          <li class="my-2">You are expected to operate as an independent founder. The partner defines the "what" and the "why," but the "how"—the architecture, the business model, and the final product—rests entirely on your team's execution.</li>
+        </ul>
+      </div>
+
+      <a href="{{ site.data.settings.theme.link }}" class="btn btn-primary  mx-auto" style="margin-top: 30px;">Industry Partners</a>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-primary" id="our-courses">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title text-white">DCSIL Courses</h2>
+      </div>
+      <div class="card-deck">
+      {% assign courses = site.pages | where: "type", "course" | sort: "title" %}
+      {% for course in courses %}
+        <div class="card text-center">
+          <img src="{{ course.image | relative_url }}" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title">{{ course.code }}</h4>
+            <p class="text-light font-secondary">{{ course.course_title }}</p>
+            <a href="./{{ course.code | split: '/' | first | downcase }}" class="btn btn-sm btn-primary">View Course</a>
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

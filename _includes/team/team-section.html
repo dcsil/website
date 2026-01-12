@@ -1,0 +1,26 @@
+<!-- team -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title text-center">DCSIL Teaching Team</h2>
+    <div class="row">
+      {% assign staffs = site.pages | where: "type", "staff" | sort: "title" %}
+      {% for staff in staffs %}
+        <article class="card shadow col-12 col-md-4 text-center">
+          <!-- <img class="rounded card-img-top" src="{{ post.image | relative_url }}" alt="{{ post.title }}"> -->
+          <div class="card-body">
+            {% if staff.image %}
+              <img src="{{ staff.image }}" style="object-fit: cover;" class="mb-4 rounded-circle" {% if staff.image_size %}width="{{ staff.image_size }}" height="{{ staff.image_size }}"{% else %}width="150" height="150"{% endif %}/>
+            {% endif %}
+            <h4 class="card-title">
+              {{ staff.title }}
+            </h4>
+            <p class="card-text">{{ staff.description | markdownify }}</p>
+          </div>
+          <div class="card-footer bg-white">
+            <a href="{{ staff.permalink | relative_url }}" class="btn btn-sm btn-primary mb-3 mt-0">View Member</a>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

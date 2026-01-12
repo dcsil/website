@@ -1,0 +1,20 @@
+{% if site.data.settings.partnership-blueprint %}
+<!-- Partnership Blueprint -->
+<section class="section" style="padding-top: 40px; padding-bottom: 40px;">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Industry Partnership Blueprint</h2>
+      </div>
+      {% for step in site.data.settings.partnership-blueprint %}
+      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
+        <img src="{{ step.icon | relative_url }}" class="mb-4" height="96" alt="icon">
+        <h4 class="mb-4">{{ step.title }}</h4>
+        <p>{{ step.content | markdownify }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- ./Partnership Blueprint -->
+{% endif %}

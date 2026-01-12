@@ -1,0 +1,29 @@
+---
+title: All Partners
+layout: page
+active: 'partners'
+link:
+  text: "Apply Now"
+  href: "https://drive.google.com/file/d/1voK_i_YBlnL3rG6t3EuPBpZhdLapAU5t/view?usp=sharing"
+---
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {% assign partner_files = site.pages | where: "type", "partners" | sort: 'date' | reverse %}
+      {% for partner in partner_files %}
+        <div class="col-12 col-md-6 p-1">
+          <article class="card shadow">
+            <div class="card-body">
+              <h4 class="card-title">
+                {{ partner.title }}
+              </h4>
+              <p class="card-text">{{ partner.excerpt | markdownify | strip_html }}</p>
+              <a href="{{ partner.url | relative_url }}">View partner</a>
+            </div>
+          </article>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

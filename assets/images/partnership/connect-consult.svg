@@ -1,0 +1,22 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .icon-stroke { stroke: #ffffff; }
+      .icon-fill { fill: #ffffff; }
+      .icon-bg { fill: #000000; }
+    }
+    @media (prefers-color-scheme: light) {
+      .icon-stroke { stroke: #000000; }
+      .icon-fill { fill: #000000; }
+      .icon-bg { fill: #ffffff; }
+    }
+  </style>
+  <!-- Adaptive background -->
+  <rect width="100" height="100" class="icon-bg"/>
+  <!-- Meeting/conversation icon -->
+  <circle cx="35" cy="35" r="12" fill="none" class="icon-stroke" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="65" cy="35" r="12" fill="none" class="icon-stroke" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20 65 Q35 55 50 65 Q65 55 80 65" fill="none" class="icon-stroke" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="25" y="70" width="20" height="15" rx="2" fill="none" class="icon-stroke" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="55" y="70" width="20" height="15" rx="2" fill="none" class="icon-stroke" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

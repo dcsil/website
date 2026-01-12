@@ -32,3 +32,4 @@ exclude:
   - LICENSE.text
   - README.md
   - SECURITY.md
+  - _pages/partners/terms.html

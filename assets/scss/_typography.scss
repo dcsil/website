@@ -23,3 +23,13 @@ h1,h2,h3,h4,h5,h6 {
   font-family: $secondary-font;
   line-height: 1.2;
 }
+
+ul li.my-2 {
+  margin-top: 0 !important;
+  margin-bottom: 1em !important;
+  line-height: 1.8;
+}
+
+ul li.my-2:last-child {
+  margin-bottom: 0 !important;
+}

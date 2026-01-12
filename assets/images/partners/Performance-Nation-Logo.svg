@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+  <defs>
+    <!-- Red color matching the logo -->
+    <style>
+      .logo-red { fill: #EC2227; }
+      .logo-gray { fill: #58585A; }
+      .logo-light-gray { fill: #B3B3B3; }
+    </style>
+  </defs>
+  
+  <!-- Red rounded square background with maple leaf -->
+  <rect x="227" y="0" width="546" height="415" rx="60" ry="60" class="logo-red"/>
+  
+  <!-- Three diagonal stripes at top -->
+  <path d="M 327 0 L 387 0 L 457 80 L 397 80 Z" fill="#ffffff"/>
+  <path d="M 407 0 L 467 0 L 537 80 L 477 80 Z" fill="#ffffff"/>
+  <path d="M 487 0 L 547 0 L 617 80 L 557 80 Z" fill="#ffffff"/>
+  
+  <!-- Maple leaf design -->
+  <g transform="translate(500, 260)">
+    <!-- Left curve -->
+    <path d="M -180 -50 Q -160 -20 -140 10 Q -120 30 -100 35 L -110 50 Q -130 45 -150 30 Q -170 10 -190 -30 Z" fill="#ffffff"/>
+    
+    <!-- Central maple leaf shape -->
+    <path d="M -50 -130 L -30 -80 L -70 -60 L -40 -20 L -80 -10 L -60 30 L -100 20 L -80 70 L 0 100 L 80 70 L 100 20 L 60 30 L 80 -10 L 40 -20 L 70 -60 L 30 -80 L 50 -130 L 0 -100 Z" fill="#ffffff"/>
+    
+    <!-- Right curve -->
+    <path d="M 180 -50 Q 160 -20 140 10 Q 120 30 100 35 L 110 50 Q 130 45 150 30 Q 170 10 190 -30 Z" fill="#ffffff"/>
+    
+    <!-- Bottom swoosh -->
+    <path d="M -150 130 Q -100 145 0 150 Q 100 145 150 130 L 140 145 Q 90 155 0 160 Q -90 155 -140 145 Z" fill="#ffffff"/>
+  </g>
+  
+  <!-- "PERFORMANCE" text in red -->
+  <text x="0" y="570" font-family="'Impact', 'Arial Black', sans-serif" font-size="90" font-weight="900" class="logo-red" letter-spacing="-2">PERFORMANCE</text>
+  
+  <!-- "NATION" text in gray -->
+  <text x="683" y="570" font-family="'Impact', 'Arial Black', sans-serif" font-size="90" font-weight="900" class="logo-gray" letter-spacing="-2">NATION</text>
+  
+  <!-- "POWERED BY CANADIAN SPORT INSTITUTE PACIFIC" subtitle -->
+  <text x="33" y="620" font-family="'Arial', sans-serif" font-size="22" font-weight="300" class="logo-light-gray" letter-spacing="8">POWERED BY CANADIAN SPORT INSTITUTE PACIFIC</text>
+</svg>

@@ -109,5 +109,23 @@ function didScroll() {
         });
     }
 
+    // Add target="_blank" to all external links that don't already have it
+    jQuery('a[href^="http://"], a[href^="https://"]').each(function() {
+        var $link = jQuery(this);
+        var href = $link.attr('href');
+        var linkHostname = new URL(href).hostname;
+        var currentHostname = window.location.hostname;
+        
+        // Only add target="_blank" to external links (different domain) that don't already have a target attribute
+        if (!$link.attr('target') && linkHostname !== currentHostname) {
+            $link.attr('target', '_blank');
+            if (!$link.attr('rel')) {
+                $link.attr('rel', 'noopener noreferrer');
+            } else if (!$link.attr('rel').includes('noopener')) {
+                $link.attr('rel', $link.attr('rel') + ' noopener noreferrer');
+            }
+        }
+    });
+
 
 })(jQuery);
